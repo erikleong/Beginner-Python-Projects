@@ -2,15 +2,15 @@ from email.message import EmailMessage
 import ssl
 import smtplib
 
-email_sender = 'gd6noob@gmail.com'
-email_password = 'ydragawoefheerwc'
-email_receiver = 'mioradnw@hotmail.com'
+email_sender = '@gmail.com'
+email_password = ''
+email_receiver = '@hotmail.com'
 
-subject = 'Miora, I miss you a lot'
-body = '''Hello my love, \n
-I miss you each and everyday. Sometimes I get mad or angry but I do not mean it in a bad way.\n
-Thank you for accepting me for being me. \n \n
-Also, I'm just testing my coding. '''
+subject = 'Subject Line'
+body = '''Hello, \n
+Testing line 1.\n
+Testing line 2. \n \n
+Testing line 3. '''
 
 em = EmailMessage()
 em['From'] = email_sender
